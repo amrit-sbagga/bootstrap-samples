@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <title>SamplePage</title>
+</head>
+
+<style>
+    .container-fluid {
+        background-color: #2ba6cb;
+        padding: 90px 90px;
+    }
+
+    .mybtn{
+        border: 1px solid rgb(5, 11, 46);
+    }
+</style>
+
+<body>
+
+    <div class="container-fluid">
+        <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Information</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-link">Link</button>
+
+        <hr/>
+
+        <a href="#" class="btn btn-info" role="button">Link Button</a>
+        <input type="button" class="btn btn-primary" value="Input Button" />
+        <input type="submit" class="btn btn-warning" value="Submit Button" />
+
+        <hr/>
+
+        <!-- button sizes-->
+        <button type="button" class="btn btn-primary btn-lg">Large</button>
+        <button type="button" class="btn btn-primary btn-md">Medium</button>
+        <button type="button" class="btn btn-primary btn-sm">Small</button>
+        <button type="button" class="btn btn-primary btn-xs">X-Small</button>
+
+        <hr/>
+        <!--block level buttons -->
+        <button type="button" class="btn btn-primary btn-block">Button1</button>
+        <button type="button" class="btn btn-default btn-block">Button2</button>
+
+        <button type="button" class="btn btn-primary btn-lg btn-block">Button1</button>
+        <button type="button" class="btn btn-default btn-lg btn-block">Button2</button>
+
+        <button type="button" class="btn btn-primary btn-sm btn-block">Button1 Small</button>
+        <button type="button" class="btn btn-default btn-sm btn-block">Button2 Small</button>
+
+        <hr/>
+        <!--active level buttons -->
+        <button type="button" class="btn btn-primary active">Active Primary</button>
+        <button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+
+        <!-- button groups-->
+        <hr/>
+        <h4>Large Buttons</h4>
+        <!-- <div class="btn-group btn-group-lg"> -->
+        <div class="btn-group-vertical btn-group-lg">
+            <button type="button" class="btn btn-primary mybtn">Home</button>
+            <button type="button" class="btn btn-primary mybtn">Company</button>
+            <button type="button" class="btn btn-primary mybtn">Contact</button>
+        </div>
+
+        <br/>
+        <h4>Extra Small Buttons</h4>
+        <div class="btn-group btn-group-xs">
+            <button type="button" class="btn btn-primary">Home</button>
+            <button type="button" class="btn btn-primary">Company</button>
+            <button type="button" class="btn btn-primary">Contact</button>
+        </div>
+
+        <hr/>
+
+        <!-- Justify button groups using link elements -->
+        <h4>Justified Button Groups using link elements</h4>
+        <div class="btn-group btn-group-justified" role="group" aria-label="Button group">
+            <a href="#" class="btn btn-primary">Home</a>
+            <a href="#" class="btn btn-primary">Company</a>
+            <a href="#" class="btn btn-primary">Contact</a>
+        </div>
+           
+        <br/>
+        <!-- Justify button groups using button elements -->
+        <h4>Justified Button Groups using button elements</h4>
+        <div class="btn-group btn-group-justified" role="group" aria-label="Button group">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Home</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Company</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Contact</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
